@@ -1,0 +1,37 @@
+{
+  "name": "react-houdini",
+  "version": "1.0.0",
+  "description": "Virtualizing solutions to deal with components and lists that are expensive to render.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balgamat/react-houdini.git"
+  },
+  "keywords": [
+    "react",
+    "virtualize",
+    "houdini",
+    "render"
+  ],
+  "author": "Matej Balga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/balgamat/react-houdini/issues"
+  },
+  "homepage": "https://github.com/balgamat/react-houdini#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-waypoint": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.3"
+  }
+}
